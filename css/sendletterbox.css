@@ -1,0 +1,95 @@
+body {
+    /*width: 500px;*/
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-weight: 800;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+div {
+    background-color: orange;
+    width: 80vw;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.box_contents {
+    padding-top: 10px;
+    height: 50vh;
+}
+
+.box_time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box_time button {
+    height: 6vh;
+    width: 13vw;
+    border: none;
+    background-color: black;
+    color: orange;
+    font-weight: 800;
+    border-radius: 8px;
+    font-family: 'Nanum Myeongjo', serif;
+    cursor: pointer;
+}
+
+/*답장 박스*/
+.box_reply {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.box_reply form{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box_reply form input  {
+    background-color: orange;
+    width: 80vw;
+    height: 8vh;
+    margin-bottom: 3vh;
+    padding-left: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+}
+
+.box_reply form textarea {
+    background-color: orange;
+    width: 80vw;
+    margin-bottom: 3vh;
+    padding-left: 10px;
+    resize: none;
+    padding-top: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+}
+
+.box_reply form button {
+    background-color: orange;
+    width: 82.5vw;
+    height: 8vh;
+    border: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+}

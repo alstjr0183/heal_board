@@ -1,0 +1,49 @@
+body {
+    /*width: 100%;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+}
+
+video {
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+    /*height: 10vh;*/
+    /*color: rgba(0,0,0,0.1);*/
+    /*opacity: 0.8;*/
+}
+/*제목 인풋*/
+.titleinput {
+    width: 60rem;
+    font-size: 3rem;
+    height: 4rem;
+    text-align: center;
+    border: none;
+    border-bottom: solid 2px pink;
+    color: pink;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    background-color: rgba(255,255,255,0);
+    transition: all 1s;
+}
+
+/*수정 버튼*/
+.submitcss {
+    width: 10rem;
+    width: 60rem;
+    font-size: 2rem;
+    height: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    background-color: pink;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}

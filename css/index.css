@@ -1,0 +1,262 @@
+* {
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+
+}
+button {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+}
+
+input {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*font-family: 'Cute Font', cursive;*/
+    /*font-family: 'Do Hyeon', sans-serif;*/
+    /*font-family: 'Gothic A1', sans-serif;*/
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    /*font-family: 'Yeon Sung', cursive;*/
+}
+
+video {
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    /*color: rgba(0,0,0,0.1);*/
+    /*opacity: 0.8;*/
+}
+input {
+    font-family: 'Nanum Myeongjo', serif;
+}
+audio {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0.8;
+    z-index: 2;
+}
+/*로그인 회원가입 콘트롤러*/
+.control {
+    position: absolute;
+    top: 170px;
+    z-index: 2;
+    width: 40vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0);
+    opacity: 0.7;
+    font-size: 1.5rem;
+}
+/*로그인 컨트롤러*/
+.logincon {
+    width: 19.8vw;
+    background-color: darkseagreen;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 0.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/*회원가입 콘트롤러*/
+.signcon {
+    width: 20vw;
+    background-color: darkseagreen;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/*로그인 회원가입 전체*/
+.indexcss {
+    position: fixed;
+    z-index: 1;
+    width: 40vw;
+    height: 55vh;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.5;
+    overflow:hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*.indexcss:hover {*/
+/*    transition: 0.5s all;*/
+/*    opacity: 0.9;*/
+/*}*/
+
+    /*로그인 회원가입 섹션*/
+.mainbox {
+    width: 80vw;
+    /*overflow: scroll;*/
+    display: flex;
+    /*background-color: white;*/
+    transition: all 1s;
+}
+/*로그인 div*/
+.logincss {
+    width: 40vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginbox {
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginbox input {
+    font-size: 1.2rem;
+}
+.idbox {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+
+
+}
+.idbox:focus {
+    outline:none;
+}
+.pwbox {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 7vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+}
+.pwbox:focus {
+    outline:none;
+}
+.buttonbox {
+    width: 20vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    font-weight: 600;
+}
+
+    /*회원가입 div*/
+.signupcss {
+    /*display: none;*/
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.signupbox {
+    width: 20vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: scroll;*/
+}
+
+/*회원가입 아이디 중복*/
+.sameid_check {
+    display: flex;
+    align-items: center;
+}
+.sameid_check button {
+    width: 5rem;
+    height: 2.5rem;
+    margin-bottom: 3vh;
+    border: none;
+    background-color: darkseagreen;
+}
+.signupbox input {
+ font-size: 1.2rem;
+}
+/*회원가입 컬럼 클래스*/
+.signupid {
+
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+}
+.signupid:focus {
+    outline:none;
+}
+.signuppw {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+}
+.signuppw:focus {
+    outline:none;
+}
+.signupnick {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+}
+.signupnick:focus {
+    outline:none;
+}
+.signuphint {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 7vh;
+    font-size: 1.5rem;
+    border: 1px none darkseagreen;
+    border-bottom-style: solid;
+}
+.signuphint:focus {
+    outline:none;
+}
+.signupbutton {
+    width: 20vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    font-weight: 600;
+}
+
+/*아이디 비번찾기*/
+.forget {
+    margin-top: 3rem;
+}
+.forget a {
+    text-decoration: none;
+    color: black;
+}
+
+.forget a span {
+    color: darkseagreen;
+}

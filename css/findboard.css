@@ -1,0 +1,333 @@
+* {
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 200vw;
+    /*height: 100vh;*/
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    display: flex;
+    /*flex-direction: column;*/
+    position: fixed;
+}
+
+li {
+    list-style: none;
+}
+
+video {
+    /*position: fixed;*/
+    z-index: 0;
+    width: 100vw;
+    /*height: 10vh;*/
+    /*color: rgba(0,0,0,0.1);*/
+    /*opacity: 0.8;*/
+}
+
+audio {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+/*메뉴 리스트 css*/
+
+.menulistboss {
+    margin-top: 8vh;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menulist {
+    z-index: 1;
+    width: 90vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.7;
+    font-size: 1.5rem;
+}
+
+.menulist div {
+    transition: 1s all;
+}
+
+.popular {
+    width: 30vw;
+
+    background-color: #17A7D6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 0.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-style: solid;
+    /*border: none;*/
+    border-bottom: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+.category {
+    width: 30vw;
+    background-color: #17A7D6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 0.2vw;
+    border-style: solid;
+    /*border: none;*/
+    border-bottom: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+.category ul li {
+    display: none;
+
+}
+
+.chat {
+    width: 30vw;
+    background-color: #17A7D6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-style: solid;
+    /*border: none;*/
+    border-bottom: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+/*메인 컨텐츠*/
+.mainboss {
+    position: fixed;
+    top: 13vh;
+    left: 5vw;
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    opacity: 0.8;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
+
+.mainbox {
+    width: 270vw;
+    height: 80vh;
+    display: flex;
+}
+
+/*인기글 박스*/
+.popularbox {
+    width: 90vw;
+    height: 80vh;
+    color: #17A7D6;
+    display: flex;
+}
+
+.topcss {
+    width: 10vw;
+    height: 80vh;
+    margin-top: 4vh;
+
+    /*height: 72vh;*/
+
+}
+
+.topcss div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 12vh;
+    font-size: 3rem;
+}
+
+.chartmenu {
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    width: 80vw;
+    height: 12vh;
+    font-size: 3rem;
+}
+
+.chartmenu div {
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    margin-left: 5vw;
+}
+
+.chartcss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 12vh;
+
+}
+
+.chartcss span {
+    font-size: 1.5rem;
+    width: 70vw;
+}
+
+.chartcss img {
+    /*position: absolute;*/
+    left: 100px;
+}
+
+/*카테고리 박스*/
+.categorybox {
+    width: 90vw;
+    height: 80vh;
+    color: #17A7D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.categorybox table {
+    width: 90vw;
+    height: 65vh;
+
+}
+
+.categorybox table th {
+    font-size: 1.8rem;
+    width: 10vw;
+    height: 1vh;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid #17A7D6;
+    border-top: 2px solid #17A7D6;
+    border-right: 2px solid #17A7D6;
+    /*background-color: red;*/
+}
+
+.categorybox table td {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* 게시글부분 밑에 바 부분  */
+.categorybox-bar {
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    /*background-color: green;*/
+}
+/*검색 박스*/
+.searchboss {
+    display: flex;
+    /*width: 10vw;*/
+    /*height: 5vh;*/
+    /*position: absolute;*/
+    /*z-index: 99;*/
+    align-items: center;
+}
+
+.searchbox-title {
+    display: flex;
+    align-items: center;
+}
+.searchbox-title-1 {
+    width: 6vw;
+    height: 3.55vh;
+    font-size: 1rem;
+    background-color: #17A7D6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.searchbox-input{
+    margin-left: 1vw;
+    width: 10vw;
+    height: 3vh;
+    transition: 1s all;
+}
+
+.searchbox-submit{
+    border: none;
+    width: 3vw;
+    height: 3.55vh;
+    background-color: #17A7D6;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+/* 글쓰기 박스 */
+.writeboss {}
+
+.writebox {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0vw;
+    width: 90vw;
+    height: 80vh;
+    background-color: skyblue;
+    opacity: 0;
+
+    transition: 0.5s all;
+}
+
+.writebox input {
+    margin-left: 13vw;
+    width: 63vw;
+}
+
+.writebutton {
+    position: relative;
+    z-index: 3;
+    transition: 0.5s all;
+    width: 7vw;
+    height: 3.55vh;
+    border-radius: 8px;
+    background-color: #17A7D6;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    color: white;
+}
+
+/*채팅 박스*/
+.chatbox {
+    width: 90vw;
+    height: 80vh;
+    color: white;
+}
